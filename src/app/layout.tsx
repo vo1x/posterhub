@@ -89,7 +89,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${ggSans.variable} ${ggSansMono.variable} antialiased bg-[var(--ph-background)] text-[var(--ph-primary)] ${ggSans.className}`}
+				className={`${ggSans.variable} ${ggSansMono.variable} antialiased bg-[var(--ph-background)] text-ph-text ${ggSans.className}`}
 			>
 				{children}
 			</body>

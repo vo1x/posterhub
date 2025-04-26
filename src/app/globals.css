@@ -6,8 +6,8 @@
 	--ph-secondary: #ffffff;
 	--ph-background: #121212;
 	--ph-background-alt: #222222;
-	--ph-text: #f90;
-	--ph-text-hover: #ffffff;
+	--ph-text: #ffffff;
+	--ph-text-hover: #f90;
 }
 
 @theme inline {
@@ -22,6 +22,6 @@
 
 body {
 	background: var(--ph-background);
-	color: var(--ph-primary);
+	color: var(--ph-text);
 	font-family: "Arial", "Helvetica", sans-serif !important;
 }
